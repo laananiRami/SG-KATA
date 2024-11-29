@@ -43,4 +43,9 @@ Ce bouton doit ouvrir une modal contenant un formulaire permettant de saisir le 
 Cet input doit être validé dans le front end.
 
 
+### Test API REST : 
+Start server BackEnd with command : `mvn spring-boot:run` 
+Connect to swagger page : `http://localhost:8080/swagger-ui/index.html#/`
+
+
 
