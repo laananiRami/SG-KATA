@@ -1,0 +1,70 @@
+<div class="modal" [class.show]="isVisible" [class.d-block]="isVisible" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Transformer un nombre</h5>
+        <button type="button" class="btn-close" (click)="close()"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label class="form-label">Nombre (0-100)</label>
+            <input 
+              type="number"
+              class="form-control"
+              formControlName="number"
+              [class.is-invalid]="numberControl.invalid && numberControl.touched">
+            
+            @if (numberControl.errors?.['required'] && numberControl.touched) {
+              <div class="invalid-feedback">
+                Le nombre est requis
+              </div>
+            }
+
+            @if ((numberControl.errors?.['min'] || numberControl.errors?.['max']) && numberControl.touched) {
+              <div class="invalid-feedback">
+                Le nombre doit être entre 0 et 100
+              </div>
+            }
+          </div>
+          <button type="submit" class="btn btn-primary" [disabled]="form.invalid">
+            Transformer
+          </button>
+        </form>
+
+        @if (transformResult.result) {
+          <div class="mt-4">
+            <div class="card">
+              <div class="card-header bg-success text-white">
+                Résultat de la transformation
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <strong>Nombre d'entrée:</strong>
+                    <p>{{ inputValue }}</p>
+                  </div>
+                  <div class="col-md-6">
+                    <strong>Résultat:</strong>
+                    <p class="text-primary fw-bold">{{ transformResult.result }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+
+        @if (transformResult.error) {
+          <div class="alert alert-danger mt-3">
+            {{ transformResult.error }}
+          </div>
+        }
+
+      </div>
+    </div>
+  </div>
+</div>
+
+@if (isVisible) {
+  <div class="modal-backdrop show"></div>
+}

@@ -1,0 +1,25 @@
+<div class="container mt-4">
+    <div class="card">
+      <div class="card-header">
+        <h2>Kata FOO BAR QUIX</h2>
+      </div>
+      <div class="card-body">
+        <h3>Description</h3>
+        <p>Un algorithme qui transforme un nombre en chaîne de caractères selon les règles suivantes :</p>
+        
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Si le nombre est divisible par 3 ou contient 3 → "FOO"</li>
+          <li class="list-group-item">Si le nombre est divisible par 5 ou contient 5 → "BAR"</li>
+          <li class="list-group-item">Si le nombre contient 7 → "QUIX"</li>
+          <li class="list-group-item">Les règles "divisible par" sont prioritaires</li>
+        </ul>
+  
+        <button class="btn btn-primary" (click)="openModal()">
+          Tester l'algorithme
+        </button>
+      </div>
+    </div>
+</div>
+<app-modal #modal></app-modal>
+
+
