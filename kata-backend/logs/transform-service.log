@@ -1,0 +1,166 @@
+2024-12-01 20:10:48.131 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sg.kata.controller.TransformControllerTest]: TransformControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-01 20:10:48.501 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sg.kata.FooBarQuixApplication for test class com.sg.kata.controller.TransformControllerTest
+2024-12-01 20:10:49.335 [main] INFO  c.s.k.c.TransformControllerTest - Starting TransformControllerTest using Java 23.0.1 with PID 16864 (started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:10:49.335 [main] INFO  c.s.k.c.TransformControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:10:52.361 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-01 20:10:52.361 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-01 20:10:52.371 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 10 ms
+2024-12-01 20:10:52.411 [main] INFO  c.s.k.c.TransformControllerTest - Started TransformControllerTest in 3.732 seconds (process running for 6.306)
+2024-12-01 20:10:52.581 [main] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 15
+2024-12-01 20:10:52.586 [main] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBAR
+2024-12-01 20:10:52.796 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sg.kata.FooBarQuixApplicationTests]: FooBarQuixApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-01 20:10:52.856 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sg.kata.FooBarQuixApplication for test class com.sg.kata.FooBarQuixApplicationTests
+2024-12-01 20:10:52.965 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - Starting FooBarQuixApplicationTests using Java 23.0.1 with PID 16864 (started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:10:52.966 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:10:54.551 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - Started FooBarQuixApplicationTests in 1.645 seconds (process running for 8.444)
+2024-12-01 20:11:32.811 [main] INFO  com.sg.kata.FooBarQuixApplication - Starting FooBarQuixApplication using Java 23.0.1 with PID 6708 (C:\Users\salle\Downloads\kata\SG-KATA\kata-backend\target\classes started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:11:32.815 [main] INFO  com.sg.kata.FooBarQuixApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:11:33.901 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-01 20:11:33.926 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:11:33.926 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:11:33.926 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01 20:11:34.011 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:11:34.011 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1120 ms
+2024-12-01 20:11:34.561 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:11:34.591 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-01 20:11:34.607 [main] INFO  com.sg.kata.FooBarQuixApplication - Started FooBarQuixApplication in 2.225 seconds (process running for 3.176)
+2024-12-01 20:12:40.108 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:12:40.109 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 20:12:40.110 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-01 20:12:40.172 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 10
+2024-12-01 20:12:40.174 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: BAR
+2024-12-01 20:13:56.121 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 111111
+2024-12-01 20:13:56.121 [http-nio-8080-exec-4] ERROR c.s.k.c.NumberTransformController - Validation error: {}
+2024-12-01 20:14:22.564 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 45
+2024-12-01 20:14:22.565 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBARBAR
+2024-12-01 20:18:50.711 [http-nio-8080-exec-10] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 45
+2024-12-01 20:18:50.711 [http-nio-8080-exec-10] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBARBAR
+2024-12-01 20:19:52.308 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 80
+2024-12-01 20:19:52.309 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: BAR
+2024-12-01 20:19:54.273 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 80
+2024-12-01 20:19:54.273 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Transformed result: BAR
+2024-12-01 20:19:54.723 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 80
+2024-12-01 20:19:54.723 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Transformed result: BAR
+2024-12-01 20:19:56.429 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 8
+2024-12-01 20:19:56.429 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: 8
+2024-12-01 20:20:03.014 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 1
+2024-12-01 20:20:03.015 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Transformed result: 1
+2024-12-01 20:20:05.534 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 0
+2024-12-01 20:20:05.535 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBAR
+2024-12-01 20:20:11.941 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 88
+2024-12-01 20:20:11.941 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: 88
+2024-12-01 20:20:13.871 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 88
+2024-12-01 20:20:13.871 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Transformed result: 88
+2024-12-01 20:30:37.875 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 55
+2024-12-01 20:30:37.876 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: BARBARBAR
+2024-12-01 20:31:00.792 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 55
+2024-12-01 20:31:00.793 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Transformed result: BARBARBAR
+2024-12-01 20:32:44.427 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 75
+2024-12-01 20:32:44.429 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBARQUIXBAR
+2024-12-01 20:33:08.905 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 85
+2024-12-01 20:33:08.906 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Transformed result: BARBAR
+2024-12-01 20:33:20.245 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 68
+2024-12-01 20:33:20.245 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Transformed result: 68
+2024-12-01 20:33:24.751 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 1
+2024-12-01 20:33:24.751 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: 1
+2024-12-01 20:33:27.589 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 0
+2024-12-01 20:33:27.589 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBAR
+2024-12-01 20:33:35.501 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 55
+2024-12-01 20:33:35.501 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Transformed result: BARBARBAR
+2024-12-01 20:40:57.574 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 33
+2024-12-01 20:40:57.574 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOFOOFOO
+2024-12-01 20:41:03.289 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 35
+2024-12-01 20:41:03.289 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Transformed result: BARFOOBAR
+2024-12-01 20:41:12.369 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 53
+2024-12-01 20:41:12.369 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: BARFOO
+2024-12-01 20:41:29.256 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-01 20:41:29.284 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-01 20:43:39.682 [main] INFO  com.sg.kata.FooBarQuixApplication - Starting FooBarQuixApplication using Java 23.0.1 with PID 11560 (C:\Users\salle\Downloads\kata\SG-KATA\kata-backend\target\classes started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:43:39.686 [main] INFO  com.sg.kata.FooBarQuixApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:43:40.951 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-01 20:43:40.976 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:43:40.981 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:43:40.981 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01 20:43:41.090 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:43:41.092 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+2024-12-01 20:43:41.651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:43:41.681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-01 20:43:41.696 [main] INFO  com.sg.kata.FooBarQuixApplication - Started FooBarQuixApplication in 2.544 seconds (process running for 3.397)
+2024-12-01 20:45:03.871 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:45:03.871 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 20:45:03.871 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 20:45:03.948 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:03.954 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:05.753 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:05.753 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:08.133 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:08.133 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:10.201 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:10.201 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:10.901 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:10.901 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:11.421 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:11.421 [http-nio-8080-exec-7] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:11.956 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:11.957 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:12.538 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:12.542 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:13.101 [http-nio-8080-exec-10] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:13.101 [http-nio-8080-exec-10] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:13.576 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:13.576 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:14.121 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:14.121 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:20.046 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:20.046 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:20.551 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:20.551 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:21.141 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:21.141 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:29.117 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:29.118 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:29.561 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:29.561 [http-nio-8080-exec-8] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:30.071 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:30.071 [http-nio-8080-exec-9] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:32.561 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 96
+2024-12-01 20:45:32.561 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: FOO
+2024-12-01 20:45:34.991 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-01 20:45:34.991 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-01 20:45:44.535 [main] INFO  com.sg.kata.FooBarQuixApplication - Starting FooBarQuixApplication using Java 23.0.1 with PID 14208 (C:\Users\salle\Downloads\kata\SG-KATA\kata-backend\target\classes started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:45:44.538 [main] INFO  com.sg.kata.FooBarQuixApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:45:45.746 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-01 20:45:45.751 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:45:45.764 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:45:45.764 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01 20:45:45.859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:45:45.861 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
+2024-12-01 20:45:46.381 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:45:46.411 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-01 20:45:46.426 [main] INFO  com.sg.kata.FooBarQuixApplication - Started FooBarQuixApplication in 2.444 seconds (process running for 3.027)
+2024-12-01 20:46:11.371 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:46:11.371 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 20:46:11.371 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 20:52:28.937 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-01 20:52:29.186 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-01 20:52:51.761 [main] INFO  com.sg.kata.FooBarQuixApplication - Starting FooBarQuixApplication using Java 23.0.1 with PID 18732 (C:\Users\salle\Downloads\kata\SG-KATA\kata-backend\target\classes started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 20:52:51.769 [main] INFO  com.sg.kata.FooBarQuixApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 20:52:53.749 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-01 20:52:53.771 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:52:53.780 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 20:52:53.781 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01 20:52:53.949 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 20:52:53.953 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2026 ms
+2024-12-01 20:52:55.269 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-01 20:52:55.303 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-01 20:52:55.315 [main] INFO  com.sg.kata.FooBarQuixApplication - Started FooBarQuixApplication in 4.608 seconds (process running for 5.96)
+2024-12-01 20:54:26.199 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 20:54:26.199 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 20:54:26.199 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 20:54:26.341 [http-nio-8080-exec-1] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:37.163 [http-nio-8080-exec-2] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:37.843 [http-nio-8080-exec-3] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:38.624 [http-nio-8080-exec-4] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:39.265 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:39.805 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
+2024-12-01 20:54:48.188 [http-nio-8080-exec-7] ERROR c.s.k.c.NumberTransformController - Validation error: {}

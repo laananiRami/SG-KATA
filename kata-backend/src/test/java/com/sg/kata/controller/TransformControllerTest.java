@@ -12,7 +12,7 @@ import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest
+@WebMvcTest(NumberTransformController.class)
 public class TransformControllerTest {
      @Autowired
     private MockMvc mockMvc;
@@ -22,12 +22,13 @@ public class TransformControllerTest {
 
     @Test
     void transform_ShouldReturnTransformedNumber() throws Exception {
-         when(service.transform(15)).thenReturn("FOOBARBAR");
 
-         mockMvc.perform(get("/api/v1/transform/15"))
-         .andExpect(status().isOk())
-         .andExpect(content().string("FOOBARBAR"));
-    }
+        
+         when(service.transform(15)).thenReturn("FOOBAR");
+
+        mockMvc.perform(get("/api/v1/transform/15"))
+            .andExpect(status().isOk())
+            .andExpect(content().json("{result:FOOBAR}"));
 
     @Test
     void transform_ShouldReturn400_WhenNumberIsInvalid() throws Exception {
