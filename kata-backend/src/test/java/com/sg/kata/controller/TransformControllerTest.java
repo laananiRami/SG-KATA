@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @WebMvcTest(NumberTransformController.class)
 public class TransformControllerTest {
-     @Autowired
+    @Autowired
     private MockMvc mockMvc;
 
     @MockitoBean
@@ -23,20 +23,21 @@ public class TransformControllerTest {
     @Test
     void transform_ShouldReturnTransformedNumber() throws Exception {
 
-        
-         when(service.transform(15)).thenReturn("FOOBAR");
+        when(service.transform(15)).thenReturn("FOOBAR");
 
         mockMvc.perform(get("/api/v1/transform/15"))
-            .andExpect(status().isOk())
-            .andExpect(content().json("{result:FOOBAR}"));
+                .andExpect(status().isOk())
+                .andExpect(content().json("{result:FOOBAR}"));
+
+    }
 
     @Test
     void transform_ShouldReturn400_WhenNumberIsInvalid() throws Exception {
         when(service.transform(101))
-            .thenThrow(new IllegalArgumentException("Le nombre doit être entre 0 et 100"));
+                .thenThrow(new IllegalArgumentException("Le nombre doit être entre 0 et 100"));
 
         mockMvc.perform(get("/api/v1/transform/101"))
-            .andExpect(status().isBadRequest());
+                .andExpect(status().isBadRequest());
     }
 
 }
