@@ -1,1 +1,17 @@
-.vscode/settings.json
+### VS Code ###
+.vscode/
+
+
+# Node
+/kata-frontend/node_modules
+
+# Miscellaneous
+/kata-frontend/.angular
+
+
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
