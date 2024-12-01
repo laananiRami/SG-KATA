@@ -164,3 +164,33 @@
 2024-12-01 20:54:39.265 [http-nio-8080-exec-5] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
 2024-12-01 20:54:39.805 [http-nio-8080-exec-6] INFO  c.s.k.c.NumberTransformController - Transformed result: QUIX
 2024-12-01 20:54:48.188 [http-nio-8080-exec-7] ERROR c.s.k.c.NumberTransformController - Validation error: {}
+2024-12-01 21:31:09.504 [main] INFO  com.sg.kata.FooBarQuixApplication - Starting FooBarQuixApplication using Java 23.0.1 with PID 26424 (C:\Users\salle\Downloads\kata\SG-KATA\kata-backend\target\classes started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 21:31:09.507 [main] INFO  com.sg.kata.FooBarQuixApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 21:31:10.792 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-01 21:31:10.819 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-01 21:31:10.821 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:31:10.821 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-01 21:31:10.915 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:31:10.917 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+2024-12-01 21:31:11.493 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-01 21:31:11.532 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-01 21:31:11.545 [main] INFO  com.sg.kata.FooBarQuixApplication - Started FooBarQuixApplication in 2.503 seconds (process running for 3.602)
+2024-12-01 21:31:19.261 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-01 21:31:19.295 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-01 21:31:33.699 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sg.kata.controller.TransformControllerTest]: TransformControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-01 21:31:34.002 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sg.kata.FooBarQuixApplication for test class com.sg.kata.controller.TransformControllerTest
+2024-12-01 21:31:34.634 [main] INFO  c.s.k.c.TransformControllerTest - Starting TransformControllerTest using Java 23.0.1 with PID 31012 (started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 21:31:34.640 [main] INFO  c.s.k.c.TransformControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 21:31:37.821 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-01 21:31:37.822 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-01 21:31:37.825 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-01 21:31:37.882 [main] INFO  c.s.k.c.TransformControllerTest - Started TransformControllerTest in 3.755 seconds (process running for 5.802)
+2024-12-01 21:31:38.112 [main] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 101
+2024-12-01 21:31:38.119 [main] ERROR c.s.k.c.NumberTransformController - Validation error: Le nombre doit être entre 0 et 100
+2024-12-01 21:31:38.268 [main] INFO  c.s.k.c.NumberTransformController - Received transformation request for number: 15
+2024-12-01 21:31:38.268 [main] INFO  c.s.k.c.NumberTransformController - Transformed result: FOOBAR
+2024-12-01 21:31:38.330 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sg.kata.FooBarQuixApplicationTests]: FooBarQuixApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-01 21:31:38.375 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sg.kata.FooBarQuixApplication for test class com.sg.kata.FooBarQuixApplicationTests
+2024-12-01 21:31:38.576 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - Starting FooBarQuixApplicationTests using Java 23.0.1 with PID 31012 (started by salle in C:\Users\salle\Downloads\kata\SG-KATA\kata-backend)
+2024-12-01 21:31:38.576 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-12-01 21:31:39.692 [main] INFO  c.sg.kata.FooBarQuixApplicationTests - Started FooBarQuixApplicationTests in 1.181 seconds (process running for 7.615)
